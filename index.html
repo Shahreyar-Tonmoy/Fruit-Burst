@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruit Burst</title>
+    <!-- daisyUI & Tailwind cnd -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesaome link -->
+    <script src="https://kit.fontawesome.com/f15187f453.js" crossorigin="anonymous"></script>
+    <!-- lota font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"        rel="stylesheet">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+
+  </head>
+  <body class="font-family: 'Lato', sans-serif; max-w-screen-xl mx-auto">
+    <header class="container mx-auto">
+        <!-- nav section starts from here -->
+        <nav>
+            <div class="navbar h-20 bg-[#F85559] rounded-[600px] mt-10">
+                <div class="flex-1">
+                  <a class="text-[18px]">
+                  <ul class="flex gap-6 text-white ml-12"><li>Home</li>
+                    <li>About Us</li>
+                    <li>Shop</li>
+                    <li>All Fruits</li></ul></a>
+                </div>
+                <div class="flex-1  gap-4">
+                    <img src="./images/logo.png" alt="">
+                    <h1 class="text-3xl text-white font-bold">Fruit Burst</h1>
+                </div>
+                <div class="flex-none gap-2">
+                  <div class="form-control relative ">
+                    <input type="text" placeholder="Search" class="input w-24 rounded-[50px]
+                    mr-[15px] pr-20 pl-8 md:w-auto" />
+                    <i class="fa-solid fa-magnifying-glass absolute ml-64 mt-4" style="color: #010204;"></i>
+                    
+                  </div>
+                  </div>
+                </div>
+              </div>
+        </nav>
+        <!-- banner section starts from here -->
+        <section>
+            <div class="-mt-16">
+                <div class="carousel w-full ">
+                    <div id="slide1" class="carousel-item relative w-full ">
+                        <div class="hero min-h-screen" style="background-image: url(./images/banner1.png); background-size: contain; background-repeat: no-repeat;">
+                            <div class="hero-content text-center">
+                              <div class="max-w-md">
+                                <h1 class="text-6xl text-white font-bold -mx-44">Exotic tastes at your doorstep</h1>
+                                <p class="py-6 text-white">We supply highly quality organic products</p>
+                                <button class="btn bg-[#F85559] border-none text-white">Shop Now</button>
+                              </div>
+                            </div>
+                          </div>
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle hover:bg-[#3c3c3c] bg-[#121212] border-none text-white">❮</a> 
+                        <a href="#slide2" class="btn btn-circle hover:bg-[#3c3c3c] bg-[#121212] border-none text-white">❯</a>
+                      </div>
+                    </div> 
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <div class="hero min-h-screen" style="background-image: url(./images/banner2.png); background-size: contain; background-repeat: no-repeat;">
+                            <div class="hero-content text-center">
+                                <div class="max-w-md">
+                                  <h1 class="text-6xl text-white font-bold -mx-44">Exotic tastes at your doorstep</h1>
+                                  <p class="py-6 text-white">We supply highly quality organic products</p>
+                                  <button class="btn bg-[#F85559] border-none text-white">Shop Now</button>
+                                </div>
+                              </div>
+                          </div>
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle hover:bg-[#3c3c3c] bg-[#121212] border-none text-white">❮</a> 
+                        <a href="#slide3" class="btn btn-circle hover:bg-[#3c3c3c] bg-[#121212] border-none text-white">❯</a>
+                      </div>
+                    </div> 
+                    <div id="slide3" class="carousel-item relative w-full">
+                        <div class="hero min-h-screen" style="background-image: url(./images/banner3.png); background-size: contain; background-repeat: no-repeat;">
+                            <div class="hero-content text-center">
+                                <div class="max-w-md">
+                                  <h1 class="text-6xl text-white font-bold -mx-44">Exotic tastes at your doorstep</h1>
+                                  <p class="py-6 text-white">We supply highly quality organic products</p>
+                                  <button class="btn bg-[#F85559] border-none text-white">Shop Now</button>
+                                </div>
+                              </div>
+                          </div>
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle hover:bg-[#3c3c3c] bg-[#121212] border-none text-white">❮</a> 
+                        <a href="#slide4" class="btn btn-circle hover:bg-[#3c3c3c] bg-[#121212] border-none text-white">❯</a>
+                      </div>
+                    </div> 
+                    <div id="slide4" class="carousel-item relative w-full">
+                        <div class="hero min-h-screen" style="background-image: url(./images/banner4.png); background-size: contain; background-repeat: no-repeat; opacity: 5;">
+                            <div class="hero-content text-center">
+                                <div class="max-w-md">
+                                  <h1 class="text-6xl text-white font-bold -mx-44">Exotic tastes at your doorstep</h1>
+                                  <p class="py-6 text-white">We supply highly quality organic products</p>
+                                  <button class="btn bg-[#F85559] border-none text-white">Shop Now</button>
+                                </div>
+                              </div>
+                          </div>
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle hover:bg-[#3c3c3c] bg-[#121212] border-none text-white">❮</a> 
+                        <a href="#slide1" class="btn btn-circle hover:bg-[#3c3c3c] bg-[#121212] border-none text-white">❯</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <section class="absolute -mt-48 ml-40 ">
+                    <div class="flex  bg-white  shadow-lg shadow-slate-300 rounded-2xl gap-14 py-8 px-12 mr-72">
+                        <div>
+                            <img src="./images/fruit1.png" alt="">
+                        <h2 class="text-center">Strawberry</h2>
+                    </div>
+                      
+                        <div>
+                            <img src="./images/fruit2.png" alt="">
+                        <h2 class="text-center">Orange</h2>
+                    </div>
+                      
+                        <div>
+                            <img src="./images/fruit3.png" alt="">
+                        <h2 class="text-center">Mango</h2>
+                    </div>
+                      
+                        <div>
+                            <img src="./images/fruit4.png" alt="">
+                        <h2 class="text-center">Strawberry</h2>
+                    </div>
+                      
+                        <div>
+                            <img src="./images/fruit5.png" alt="">
+                        <h2 class="text-center">Mango</h2>
+                    </div>
+                        
+                        
+                      </div>
+                  </section>
+                  
+                  
+            </div>
+              
+        </section>
+    </header>
+    <main class="container mx-auto">
+
+        <section class="flex">
+            <div class="flex-1">
+                <h1 class="text-5xl font-bold">Deal of the day</h1>
+                <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+    
+            <div class="flex-1 "> 
+                <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                    <div class="flex flex-col">
+                      <span class="countdown font-lota font-bold text-5xl">
+                        <span style="--value:15;"></span>
+                      </span>
+                      days
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown font-lota font-bold  text-5xl">
+                        <span style="--value:10;"></span>
+                      </span>
+                      hours
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown font-lota font-bold  text-5xl">
+                        <span style="--value:24;"></span>
+                      </span>
+                      min
+                    </div> 
+                    <div class="flex flex-col">
+                      <span class="countdown font-lota font-bold  text-5xl">
+                        <span style="--value:35;"></span>
+                      </span>
+                      sec
+                    </div>
+                  </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container mx-auto">
+
+    </footer>
+  </body>
+</html>
